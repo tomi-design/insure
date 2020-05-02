@@ -131,7 +131,7 @@ header .content-wrapper {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
 }
 
@@ -145,11 +145,11 @@ header figure {
   justify-content: space-evenly;
   align-items: center;
   font-family: 'Karla', sans-serif;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .topnav a {
-  padding-left: 10px;
+  padding-left: 18px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -674,7 +674,7 @@ footer span {
 
   .topnav a {
     font-size: 25px;
-    padding-left: 30px;
+    padding-left: 50px;
   }
 
   .hero {
