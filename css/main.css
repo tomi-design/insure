@@ -741,11 +741,15 @@ footer span {
     padding:10px;
     text-decoration: none;
     color:hsl(256, 26%, 20%);
+    border:transparent solid 2px;
+
+    transition-duration: 250ms;
   }
 
   .topnav a:hover {
     border: hsl(256, 26%, 20%) solid 2px;
     text-align: center;
+    cursor: pointer;
   }
 
   .hero {
@@ -804,11 +808,13 @@ footer span {
 
   .view-plans button {
     margin:0 auto;
+    transition-duration: 250ms;
   }
 
   .view-plans button:hover {
     background-color: white;
     color: hsl(256, 26%, 20%);
+    cursor: pointer;
   }
 
 
@@ -893,10 +899,15 @@ footer span {
     padding: 90px 0;
     background-size: 20%;
   }
+
+  .more-info button {
+    transition-duration: 250ms;
+  }
   
   .more-info button:hover {
     background-color: white;
     color: hsl(256, 26%, 20%);
+    cursor: pointer;
   }
 
   .more-info .content-wrapper {
@@ -963,6 +974,7 @@ footer span {
     padding-top: 40px;
   }
 
+
   .our-company {
     text-align: left;
   }
@@ -978,6 +990,11 @@ footer span {
 
   .others {
     text-align: left;
+  }
+
+  .social-media-icon i:hover {
+    color:#a8a8a8;
+    cursor: pointer;
   }
 
 }
